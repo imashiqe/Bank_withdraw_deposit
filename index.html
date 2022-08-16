@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baap Er Bank</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1418a0f075.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
-        <h1 class="text-5xl text-center mt-6">Welcome to <span class="font-semibold text-violet-600">Bapp Er Bank</span>!!</h1>
+        <h1 class="text-5xl text-center mt-6">Welcome to <span class="font-semibold text-violet-600">
+            Daily Balance Track</span>!!</h1>
+           <h2 class="drop-shadow-2xl  text-9xl text-center mt-6"><i class="fa-solid fa-hand-holding-dollar text-blue-900  text-center mt-6"></i></h2>
+                
+            
+           
     </header>
     <main>
-        <section class="bg-indigo-900 w-9/12 mx-auto mt-12 p-8 rounded-lg ">
+        <section class="border-4 border-x-purple-900  bg-indigo-700 w-9/12 mx-auto mt-12 p-8 rounded-lg drop-shadow-xl">
             <h3 class="text-white text-3xl mb-4 font-medium">Please Login</h3>
-            <div>
-                <input class="w-9/12 block mb-2 rounded px-3 p-3" type="email" name="" id="" placeholder="Your Email Address @">
-                <input class="w-9/12 block mb-2 rounded p-3" type="password" name="" id="" placeholder="Your Password">
+           
+
+            <div class="grid grid-cols-2 divide-x">
+                <div>
+                    <input class="w-9/12 block mb-2 rounded px-3 p-3" type="email" name="" id="user-email" placeholder="Your Email Address @">
+                <input class="w-9/12 block mb-2 rounded p-3" type="password" name="" id="user-password" placeholder="Your Password">
                 <button id="btn-submit" class="bg-blue-50 text-indigo-900 px-8 py-2 rounded font-medium hover:bg-violet-600 hover:text-white ease-in-out mt-6 p-3" >SUBMIT</button>
-            </div>
+                </div>
+                <div>
+                    <h2 class="text-7xl text-center mt-2"><i class="fa-solid fa-scale-unbalanced-flip text-white  text-center mt-6"></i></h2>
+                    <p class="text-center font-medium text-white text-4xl pt-2">We should all spend money wisely</p>
+                </div>
+               
+              </div>
+              
+            
 
             
         </section>
