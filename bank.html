@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Inside</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1418a0f075.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-100">
+    <header>
+        <h1 class="text-5xl text-center mt-6">Let's Get  <span class="font-semibold text-violet-600">
+             Money Track</span>!!</h1>
+           <!-- <h2 class="drop-shadow-2xl  text-9xl text-center mt-6"><i class="fa-solid fa-hand-holding-dollar text-blue-900  text-center mt-6"></i></h2> -->
+                
+            
+           
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+                <div class="bg-green-400 p-8 text-white rounded-lg drop-shadow-lg">
+                    <h4 class="text-2xl pb-2"><i class="fa-solid fa-money-bill-trend-up px-2"></i> Deposit Amount</h4>
+                    <h2  class="text-5xl">$<span id="deposit-total">00</span></h2>
+                </div>
+                <!-- 02 -->
+                <div class="bg-red-400 p-8 text-white rounded-lg drop-shadow-lg">
+                    <h4 class="text-2xl  pb-2"> <i class="fa-solid fa-money-bill-1-wave px-2"></i>Widthrow Amount</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <!-- 03 -->
+                <div class="bg-sky-400 p-8 text-white rounded-lg drop-shadow-lg">
+                    <h4 class="text-2xl  pb-2"><i class="fa-solid fa-coins px-2"></i>Total Balance</h4>
+                    <h2 class="text-5xl">$<span id="balance-total">00</span> </h2>
+                </div>
+                
+
+              </div>
+        </section>
+
+        <!-- add money expense money -->
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto mt-12">
+                <div class="bg-teal-400 p-8  rounded-lg drop-shadow-lg">
+                    <h4 class="text-2xl pb-2 text-white">Deposit</h4>
+                    <input class="w-9/12 block mb-2 rounded px-3 p-3 " type="text" name="" id="deposit-field" placeholder="$ Amount You Want To Deposit">
+                  
+                    <button id="btn-deposit" class="bg-blue-50 text-indigo-900 px-8 py-2 rounded font-medium hover:bg-indigo-500 hover:text-white ease-in-out mt-6 p-3 " >Deposit</button>
+                </div>
+                <!-- 03 -->
+                <div class="bg-cyan-400 p-8  rounded-lg drop-shadow-lg">
+                    <h4 class="text-2xl py-2 text-white"><i class="fa-solid fa-money-from-bracket"></i> Widthrow</h4>
+                    <input class="w-9/12 block mb-2 rounded px-3 p-3 " type="text" name="" id="widthrow-field" placeholder="$ Amount You Want To Widthrow">
+                  
+                    <button id="btn-widthrow" class="bg-blue-50 text-indigo-900 px-8 py-2 rounded font-medium hover:bg-indigo-500 hover:text-white ease-in-out mt-6 p-3 " >Widthrow</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/deposit.js"></script>
+</body>
+</html>

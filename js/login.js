@@ -14,9 +14,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     //  Danger: Do not verify  email  password  on the client side.
     // step -4: verofy email and password and check whether valid user or not
     if(email === 'admin@yoursite.com' && password === 'admin'){
-        console.log('Valid User')
+        window.location=('bank.html')
     }
     else{
-        console.log('Invalid User')
+        alert('Invalid  Request Check Password or Email Try Again')
     }
 })   
