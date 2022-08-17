@@ -9,6 +9,10 @@ withdraw calculation
 deposit calculation
 total balance
 
+Login User Pass :-
+admin@yoursite.com
+PassWord :- admin
+
 Features to be added ->
 user can deposit withdraw
 Tools
