@@ -11,7 +11,7 @@ total balance
 
 Login User Pass :-
 admin@yoursite. com
-Passwrd :- admin
+Password :- admin
 
 Features to be added ->
 user can deposit withdraw
