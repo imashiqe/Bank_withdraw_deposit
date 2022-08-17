@@ -10,8 +10,8 @@ deposit calculation
 total balance
 
 Login User Pass :-
-admin@yoursite.com
-PassWord :- admin
+admin@yoursite. com
+Passwrd :- admin
 
 Features to be added ->
 user can deposit withdraw
@@ -20,3 +20,4 @@ Vanila Javascript
 HTML ,CSS
 Tailwind CSS
 Live View
+https://imashiqe.github.io/Bank_withdraw_deposit/
